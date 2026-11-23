@@ -196,6 +196,9 @@ ul { margin: 0; padding: 0; list-style: none; }
 .galeria-credito span { color: var(--amarelo); font-weight: 800; }
 @media (max-width: 560px) { .galeria { padding: 16px; margin: 0 -4px; } }
 
+.link-curto { font-size: 0.88rem; font-weight: 700; color: var(--texto-suave); }
+.link-curto a { font-weight: 900; color: var(--verde-escuro); background: linear-gradient(transparent 60%, var(--amarelo) 60%); text-decoration: none; padding: 0 2px; }
+
 /* ---------- Rodapé ---------- */
 .rodape-linha { display: flex; justify-content: space-between; gap: 30px; flex-wrap: wrap; padding-top: 40px; padding-bottom: 12px; }
 .rodape-marca { display: flex; align-items: center; gap: 12px; }

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bruninhoscout-lab.github.io/igarassu-ordinario/sitemap.xml
+Sitemap: https://igarassuordinario.github.io/sitemap.xml
