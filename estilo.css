@@ -253,6 +253,10 @@ ul { margin: 0; padding: 0; list-style: none; }
 .bloco-tempo .tempo-dia { font-weight: 700; color: var(--escuro); font-size: 0.85rem; }
 .bloco-tempo .tempo-fonte { font-size: 0.72rem; }
 
+.dica-sino { font-size: 0.82rem !important; font-weight: 700; }
+.link-resumo { color: var(--amarelo) !important; font-weight: 800; font-size: 0.88rem; }
+.materia-capa .botao-claro { align-self: flex-start; }
+
 /* ---------- Categorias ---------- */
 a.selo { text-decoration: none; position: relative; z-index: 1; }
 a.selo:hover { filter: brightness(1.06); text-decoration: underline; }
