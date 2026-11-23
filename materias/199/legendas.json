@@ -1,0 +1,17 @@
+{
+  "selo": "Acervo do Museu de Igarassu",
+  "titulo": "Os *mapas* do museu",
+  "fotos": [
+    {
+      "arquivo": "mapa-portugues-barra-tamaraca.jpg",
+      "alt": "Mapa português antigo, em tons de bege, com o título Descripção da barra e Ilha de Tamaracá, mostrando a ilha, o canal, fortificações e bancos de areia",
+      "legenda": "“Descripção da barra & Ilha de Tamaracá”, mapa português que mostra as fortificações do período da ocupação holandesa e os bancos de areia da região, as chamadas croas."
+    },
+    {
+      "arquivo": "mapa-holandes-1642-detalhe.jpg",
+      "alt": "Detalhe de mapa holandês em preto e branco com rios, o nome Igarasu, a Ilha de Itamaracá e o Forte Orange",
+      "legenda": "Detalhe do mapa holandês de 1642: aparecem “Igarasu”, a Ilha de Itamaracá (“I. Tamarica”) e o Forte Orange, na barra sul do Canal de Santa Cruz, onde fica a Coroa do Avião."
+    }
+  ],
+  "credito": "Fotos: Igarassu Ordinário, no Museu de Igarassu. Os mapas podem ser vistos no museu, no Sítio Histórico."
+}
