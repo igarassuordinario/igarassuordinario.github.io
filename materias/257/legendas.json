@@ -1,0 +1,12 @@
+{
+  "selo": "Serviço",
+  "titulo": "Vagas da *Agência* de Emprego",
+  "fotos": [
+    { "arquivo": "vaga-1.jpg", "alt": "Banner da vaga de auxiliar de laboratório", "legenda": "Auxiliar de laboratório: técnico em química (cursando)." },
+    { "arquivo": "vaga-2.jpg", "alt": "Banner da vaga de eletromecânico", "legenda": "Eletromecânico: formação e experiência na área." },
+    { "arquivo": "vaga-3.jpg", "alt": "Banner da vaga de soldador", "legenda": "Soldador TIG/eletrodo revestido: experiência na área." },
+    { "arquivo": "vaga-4.jpg", "alt": "Banner da vaga de mecânico montador", "legenda": "Mecânico montador: experiência na área." },
+    { "arquivo": "vaga-5.jpg", "alt": "Banner da vaga de caldeireiro", "legenda": "Caldeireiro: ensino médio completo e experiência na área; curso na área é diferencial." }
+  ],
+  "credito": "Banners: Agência Municipal de Emprego / Prefeitura de Igarassu"
+}
