@@ -206,6 +206,15 @@ el.hidden=false;}).catch(function(){});
 <div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div>
 <script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script>
 <script data-goatcounter="https://igarassuordinarioo.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
-<script>window.addEventListener('load',function(){try{new window.VLibras.Widget('https://vlibras.gov.br/app');}catch(e){}});</script>
+<button type="button" id="libras-fechar" class="libras-fechar vlibras-ignore" hidden aria-label="Fechar a janela de Libras"><span aria-hidden="true">✕</span> Fechar Libras</button>
+<script>window.addEventListener('load',function(){try{new window.VLibras.Widget('https://vlibras.gov.br/app');}catch(e){}
+/* Botão grande para fechar o VLibras: aparece só com a janela aberta e aperta o "Fechar" do próprio VLibras. */
+var b=document.getElementById('libras-fechar');if(!b)return;
+function sombra(){var r=document.getElementById('vlibras-app-root');return r&&r.getAttribute('data-active')==='true'?r.shadowRoot:null;}
+function aberto(){var s=sombra(),w=s&&s.querySelector('.widget-radius');if(!w)return false;var q=w.getBoundingClientRect();return q.width>0&&q.right>0&&q.left<innerWidth&&q.bottom>0&&q.top<innerHeight;}
+function confere(){var a=aberto();b.hidden=!a;if(a&&document.body.lastElementChild!==b)document.body.appendChild(b);}
+/* O VLibras captura todo clique da página para traduzir; este ouvinte chega antes dele. */
+window.addEventListener('click',function(ev){if(!b.contains(ev.target))return;ev.preventDefault();ev.stopImmediatePropagation();var s=sombra(),x=s&&[].slice.call(s.querySelectorAll('button[aria-label="Fechar"]')).filter(function(e){return e.offsetParent!==null;})[0];if(x)x.click();else{var r=document.getElementById('vlibras-app-root');if(r)r.setAttribute('data-active','false');}b.hidden=true;},true);
+setInterval(confere,700);});</script>
 </body>
 </html>

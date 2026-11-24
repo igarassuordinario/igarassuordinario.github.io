@@ -287,3 +287,9 @@ a.selo:hover { filter: brightness(1.06); text-decoration: underline; }
 .topo .botao-contorno { color: var(--branco); border-color: rgba(255,255,255,.7); }
 .etiqueta { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; background: var(--amarelo); color: var(--escuro); }
 .etiqueta-seguranca { background: var(--vermelho); color: var(--branco); }
+
+/* Libras (VLibras): botão grande de fechar, só aparece com a janela aberta */
+.libras-fechar { position: fixed; left: 50%; bottom: max(16px, env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 2147483647; display: inline-flex; align-items: center; gap: 8px; padding: 12px 22px; min-height: 48px; border: 3px solid var(--branco); border-radius: 999px; background: var(--vermelho); color: var(--branco); font: inherit; font-size: 1rem; font-weight: 900; text-transform: uppercase; letter-spacing: .03em; box-shadow: 0 6px 18px rgba(0,0,0,.35); cursor: pointer; white-space: nowrap; }
+.libras-fechar[hidden] { display: none; }
+.libras-fechar span { font-size: 1.2rem; line-height: 1; }
+.libras-fechar:hover { filter: brightness(1.08); }
