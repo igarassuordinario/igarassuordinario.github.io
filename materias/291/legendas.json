@@ -1,0 +1,9 @@
+{
+  "selo": "Serviço",
+  "titulo": "Vagas da *Agência* de Emprego",
+  "fotos": [
+    { "arquivo": "vaga-1.jpg", "alt": "Banner da vaga de gerente de vendas", "legenda": "Gerente de vendas: experiência na área de vendas de imóveis." },
+    { "arquivo": "vaga-2.jpg", "alt": "Banner da vaga de técnico de segurança do trabalho", "legenda": "Técnico de segurança do trabalho: ensino técnico completo na área, registro profissional ativo e CNH AB; experiência na área é diferencial." }
+  ],
+  "credito": "Banners: Agência Municipal de Emprego / Prefeitura de Igarassu"
+}
