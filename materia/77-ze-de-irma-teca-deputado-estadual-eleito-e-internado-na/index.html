@@ -59,11 +59,19 @@
 <div class="largura portal">
   <article class="principal materia materia-cidade" data-pagefind-body>
     <p class="materia-resumo">O ex-prefeito de Itapissuma e deputado estadual eleito Zé de Irmã Têca informou neste sábado (14) que está internado na UTI após diagnóstico de meningite, segundo publicação dele nas redes sociais.</p>
+    <section class="espalha" data-pagefind-ignore aria-label="Compartilhar esta matéria">
+  <p class="espalha-titulo">Espalha essa <em class="chave">notícia</em></p>
+  <div class="espalha-botoes">
+    <a class="botao botao-zap" href="https://api.whatsapp.com/send?text=Z%C3%A9%20de%20Irm%C3%A3%20T%C3%AAca%2C%20deputado%20estadual%20eleito%2C%20%C3%A9%20internado%20na%20UTI%20ap%C3%B3s%20diagn%C3%B3stico%20de%20Meningite%0A%0Ahttps%3A%2F%2Figarassuordinario.github.io%2Fmateria%2F77-ze-de-irma-teca-deputado-estadual-eleito-e-internado-na%2F" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>Mandar no zap</a>
+    <button type="button" class="botao botao-story" data-story="/materia/77-ze-de-irma-teca-deputado-estadual-eleito-e-internado-na/story.png" data-link="https://igarassuordinario.github.io/m/77" data-nome="igarassu-ordinario-77.png"><svg viewBox="0 0 24 24" aria-hidden="true" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg>Postar no meu story</button>
+  </div>
+  <p class="espalha-dica" hidden></p>
+</section>
     
     
     
     
-    <p class="link-curto" data-pagefind-ignore>Link curto pra mandar no zap: <a href="/m/77/">igarassuordinario.github.io/m/77</a></p>
+    
     <div class="materia-fonte">
       <p>Este é um resumo do Igarassu Ordinário. A matéria completa foi publicada por <strong>Portal de Prefeitura</strong>.</p>
       <a class="botao botao-chamada" href="https://portaldeprefeitura.com.br/pernambuco/ze-de-irma-teca-e-internado-na-uti-apos-diagnostico-de-meningite/636053/" target="_blank" rel="noopener">Ler a matéria completa na fonte →</a>
@@ -144,6 +152,17 @@ el.hidden=false;}).catch(function(){});
   </section>
 </aside>
 </div>
+<script>(function(){var bs=document.querySelectorAll('.botao-story');if(!bs.length)return;var arq=null,url=bs[0].dataset.story,nome=bs[0].dataset.nome,link=bs[0].dataset.link;
+function carregar(){if(arq)return Promise.resolve(arq);return fetch(url).then(function(r){return r.blob();}).then(function(bl){arq=new File([bl],nome,{type:'image/png'});return arq;});}
+if('IntersectionObserver' in window){var o=new IntersectionObserver(function(e){if(e.some(function(x){return x.isIntersecting;})){carregar().catch(function(){});o.disconnect();}});bs.forEach(function(b){o.observe(b);});}else{carregar().catch(function(){});}
+function copiar(){if(navigator.clipboard&&navigator.clipboard.writeText){return navigator.clipboard.writeText(link).then(function(){return true;},function(){return false;});}return Promise.resolve(false);}
+function baixar(){var a=document.createElement('a');a.href=url;a.download=nome;document.body.appendChild(a);a.click();a.remove();}
+bs.forEach(function(b){var dica=b.closest('.espalha').querySelector('.espalha-dica');function avisar(t){if(dica){dica.hidden=false;dica.textContent=t;}}
+b.addEventListener('click',function(){
+  var pode=arq&&navigator.canShare&&navigator.canShare({files:[arq]});
+  if(pode){navigator.share({files:[arq]}).catch(function(){});}else{baixar();}
+  copiar().then(function(ok){avisar((pode?'':'Imagem baixada! ')+(ok?'Link copiado! No story, toca no adesivo \u201cLink\u201d e cola: ':'No story, usa o adesivo \u201cLink\u201d com este endereço: ')+link);});
+});});})();</script>
 </main>
 <footer class="rodape fundo-pontos">
   <div class="largura rodape-linha">
