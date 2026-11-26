@@ -330,3 +330,4 @@ a.selo:hover { filter: brightness(1.06); text-decoration: underline; }
 .libras-fechar[hidden] { display: none; }
 .libras-fechar span { font-size: 1.2rem; line-height: 1; }
 .libras-fechar:hover { filter: brightness(1.08); }
+.sobre { padding-top: 32px; padding-bottom: 48px; }
