@@ -51,7 +51,7 @@ Esses três pontos ainda não têm resposta oficial definitiva.
 
 ## E o mandato do *vereador*?
 
-Júnior do Habitat foi condenado em primeira instância pela Justiça Eleitoral (85ª Zona Eleitoral), com perda do mandato, oito anos de inelegibilidade e multa, por abuso de poder econômico e compra de votos nas eleições de 2024. O TRE-PE não analisou o recurso dele por considerar que foi apresentado fora do prazo, o que manteve a decisão. A decisão do TRE foi publicada no Diário da Justiça Eletrônico em 18 de novembro.
+Júnior do Habitat foi condenado em primeira instância pela Justiça Eleitoral (85ª Zona Eleitoral), com perda do mandato, oito anos de inelegibilidade e multa, por abuso de poder econômico e compra de votos nas eleições de 2024. Em 12 de novembro, o TRE-PE, por unanimidade, não analisou o recurso dele por considerar que foi apresentado fora do prazo, o que manteve a decisão.
 
 Até agora, não há informação pública de que ele já tenha deixado o cargo. A defesa nega as acusações.
 
