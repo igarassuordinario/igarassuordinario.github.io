@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sugira uma matéria — Igarassu Ordinário</title>
+<meta name="description" content="Viu algo em Igarassu? Sugira uma matéria pro Igarassu Ordinário. Não aceitamos sugestão anônima.">
+<link rel="canonical" href="https://igarassuordinario.github.io/sugira/">
+<meta name="theme-color" content="#0E8D40">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="geo.region" content="BR-PE">
+<meta name="geo.placename" content="Igarassu">
+
+
+<link rel="icon" href="/icone-64.png" type="image/png">
+<link rel="apple-touch-icon" href="/icone-180.png">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Igarassu Ordinário">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sugira uma matéria — Igarassu Ordinário">
+<meta property="og:description" content="Viu algo em Igarassu? Sugira uma matéria pro Igarassu Ordinário. Não aceitamos sugestão anônima.">
+<meta property="og:url" content="https://igarassuordinario.github.io/sugira/">
+<meta property="og:image" content="https://igarassuordinario.github.io/compartilhar.jpg">
+<meta property="og:image:width" content="630">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary">
+<link rel="preload" href="/fontes/montserrat-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/estilo.css">
+<link rel="alternate" type="application/rss+xml" title="Igarassu Ordinário" href="/feed.xml">
+
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo">
+  <div class="faixa-cores" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="largura topo-linha">
+    <a class="logo" href="/" aria-label="Igarassu Ordinário — página inicial"><img class="logo-redonda " src="/logo-redonda.png" alt="" width="44" height="44"><span class="logo-texto">IGARASSU <b>ORDINÁRIO</b></span></a>
+    <nav class="menu" aria-label="Seções">
+      <a href="/#noticias">Notícias</a>
+      <a href="/categoria/cidade/">Cidade</a>
+      <a href="/categoria/servico/">Serviço</a>
+      <a href="/categoria/cultura-e-eventos/">Cultura</a>
+      <a href="/#anuncie">Anuncie</a>
+    </nav>
+    <a class="topo-busca" href="/busca/" aria-label="Buscar no site"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg></a>
+    <a class="botao botao-pequeno botao-amarelo" href="https://www.instagram.com/igarassuordinarioo/" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</header>
+<main id="conteudo">
+
+<section class="materia-capa fundo-pontos">
+  <div class="largura">
+    <a class="voltar" href="/">← Voltar para o início</a>
+    <span class="selo">Pauta do povo</span>
+    <h1>Sugira uma <em class="chave">matéria</em></h1>
+    <p class="capa-frase">Viu algo na tua rua, no teu bairro ou na cidade? Conta pra gente. A equipe confere antes de publicar qualquer coisa.</p>
+  </div>
+</section>
+<div class="largura-estreita sugira">
+  <p class="sugira-aviso"><strong>Não aceitamos sugestão anônima.</strong> Nome, e-mail e WhatsApp com DDD são obrigatórios: a gente usa só pra falar contigo e conferir a informação. Teus dados não são publicados.</p>
+  <form id="form-sugira" class="sugira-form" novalidate data-destino="ordinarioigarassu@gmail.com">
+    <label>Teu nome completo<input name="nome" autocomplete="name" required minlength="3" maxlength="120"></label>
+    <label>Teu e-mail<input name="email" type="email" autocomplete="email" required maxlength="160"></label>
+    <label>Teu WhatsApp com DDD<input name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" required placeholder="(81) 99999-9999" maxlength="20"></label>
+    <label><span>Bairro ou local do fato <span class="opcional">(opcional)</span></span><input name="local" maxlength="120"></label>
+    <label>Tua sugestão: o que aconteceu, onde e quando<textarea name="sugestao" required minlength="20" maxlength="4000" rows="7"></textarea></label>
+    <input type="text" name="_honey" class="sugira-mel" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label class="sugira-check"><input type="checkbox" name="autorizo" required> Autorizo o Igarassu Ordinário a usar meu nome, e-mail e WhatsApp só para falar comigo sobre esta sugestão.</label>
+    <p class="sugira-erro" role="alert" hidden></p>
+    <p class="sugira-lembrete">Ao enviar, tu te identifica: <strong>sugestão sem nome, e-mail e WhatsApp não é enviada.</strong></p>
+    <button class="botao botao-chamada" type="submit">Enviar sugestão →</button>
+  </form>
+  <div class="sugira-ok" hidden>
+    <h2>Valeu! Sugestão <em class="chave">recebida</em></h2>
+    <p>A equipe do Igarassu Ordinário vai ler e, se precisar, chama no teu WhatsApp. Nem toda sugestão vira matéria: antes, a gente confere a informação.</p>
+    <a class="botao" href="/">Voltar para as notícias</a>
+  </div>
+  <noscript><p class="sugira-aviso">Para enviar, o navegador precisa estar com o JavaScript ligado.</p></noscript>
+</div>
+<script>(function(){var f=document.getElementById('form-sugira');if(!f)return;var erro=f.querySelector('.sugira-erro');
+var DDD=[11,12,13,14,15,16,17,18,19,21,22,24,27,28,31,32,33,34,35,37,38,41,42,43,44,45,46,47,48,49,51,53,54,55,61,62,63,64,65,66,67,68,69,71,73,74,75,77,79,81,82,83,84,85,86,87,88,89,91,92,93,94,95,96,97,98,99];
+function zap(v){var d=v.replace(/\D/g,'');if(d.length>11&&d.indexOf('55')===0)d=d.slice(2);if(d.length!==10&&d.length!==11)return null;if(DDD.indexOf(+d.slice(0,2))<0)return null;if(d.length===11&&d[2]!=='9')return null;return '('+d.slice(0,2)+') '+d.slice(2,d.length-4)+'-'+d.slice(-4);}
+function falha(t,campo){erro.hidden=false;erro.textContent=t;if(campo)campo.focus();}
+f.addEventListener('submit',function(e){e.preventDefault();erro.hidden=true;var el=f.elements;
+  if(el._honey.value)return;
+  if(el.nome.value.trim().split(/\s+/).length<2)return falha('Escreve teu nome completo (nome e sobrenome). Não aceitamos sugestão anônima.',el.nome);
+  if(!el.email.checkValidity()||!el.email.value)return falha('Confere teu e-mail: ele é obrigatório.',el.email);
+  var w=zap(el.whatsapp.value);if(!w)return falha('Confere teu WhatsApp com DDD, assim: (81) 99999-9999.',el.whatsapp);
+  if(el.sugestao.value.trim().length<20)return falha('Conta um pouco mais: o que aconteceu, onde e quando.',el.sugestao);
+  if(!el.autorizo.checked)return falha('Marca a autorização pra gente poder falar contigo.',el.autorizo);
+  var b=f.querySelector('button');b.disabled=true;b.textContent='Enviando…';
+  var dados={nome:el.nome.value.trim(),email:el.email.value.trim(),whatsapp:w,local:el.local.value.trim()||'(não informado)',sugestao:el.sugestao.value.trim(),
+    _subject:'Sugestão de matéria: '+el.nome.value.trim(),_template:'table',_replyto:el.email.value.trim()};
+  fetch('https://formsubmit.co/ajax/'+encodeURIComponent(f.dataset.destino),{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(dados)})
+  .then(function(r){return r.json().then(function(j){if(!r.ok||String(j.success)!=='true')throw new Error(j.message||'erro');});})
+  .then(function(){f.hidden=true;document.querySelector('.sugira-ok').hidden=false;window.scrollTo(0,0);})
+  .catch(function(){b.disabled=false;b.textContent='Enviar sugestão →';falha('Não deu pra enviar agora. Tenta de novo daqui a pouco ou manda no direct do Instagram.');});
+});})();</script>
+</main>
+<footer class="rodape fundo-pontos">
+  <div class="largura rodape-linha">
+    <div>
+      <span class="rodape-marca"><img class="logo-redonda " src="/logo-redonda.png" alt="" width="44" height="44"><strong>IGARASSU <b>ORDINÁRIO</b></strong></span>
+      <p>Notícia, serviço e o dia a dia de Igarassu e do Litoral Norte de Pernambuco, sem enrolação.</p>
+    </div>
+    <div class="rodape-links">
+      <a href="https://www.instagram.com/igarassuordinarioo/" target="_blank" rel="noopener"><img class="logo-redonda logo-mini" src="/logo-redonda.png" alt="" width="44" height="44"><span class="arroba">@igarassu<b>ordinarioo</b></span></a>
+      <a href="/#anuncie">Anuncie</a>
+      <a href="/busca/">Buscar no site</a>
+      <a href="/feed.xml">Feed RSS</a>
+    </div>
+  </div>
+  <p class="largura rodape-nota">As matérias trazem resumo próprio e sempre citam a fonte, com link para quem publicou a notícia original.</p>
+  <div class="rodape-cena" aria-hidden="true"></div>
+  <div class="faixa-cores" aria-hidden="true"><i></i><i></i><i></i></div>
+</footer>
+<div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script>
+<script data-goatcounter="https://igarassuordinarioo.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+<button type="button" id="libras-fechar" class="libras-fechar vlibras-ignore" hidden aria-label="Fechar a janela de Libras"><span aria-hidden="true">✕</span> Fechar Libras</button>
+<script>window.addEventListener('load',function(){try{new window.VLibras.Widget('https://vlibras.gov.br/app');}catch(e){}
+/* Botão grande para fechar o VLibras: aparece só com a janela aberta e aperta o "Fechar" do próprio VLibras. */
+var b=document.getElementById('libras-fechar');if(!b)return;
+function sombra(){var r=document.getElementById('vlibras-app-root');return r&&r.getAttribute('data-active')==='true'?r.shadowRoot:null;}
+function aberto(){var s=sombra(),w=s&&s.querySelector('.widget-radius');if(!w)return false;var q=w.getBoundingClientRect();return q.width>0&&q.right>0&&q.left<innerWidth&&q.bottom>0&&q.top<innerHeight;}
+function confere(){var a=aberto();b.hidden=!a;if(a&&document.body.lastElementChild!==b)document.body.appendChild(b);}
+/* O VLibras captura todo clique da página para traduzir; este ouvinte chega antes dele. */
+window.addEventListener('click',function(ev){if(!b.contains(ev.target))return;ev.preventDefault();ev.stopImmediatePropagation();var s=sombra(),x=s&&[].slice.call(s.querySelectorAll('button[aria-label="Fechar"]')).filter(function(e){return e.offsetParent!==null;})[0];if(x)x.click();else{var r=document.getElementById('vlibras-app-root');if(r)r.setAttribute('data-active','false');}b.hidden=true;},true);
+setInterval(confere,700);});</script>
+</body>
+</html>
