@@ -22,7 +22,7 @@ Não quer dizer que Igarassu pertencesse a Olinda. Do ponto de vista da Justiça
 
 ## Uma linha no rio: o *Foral de 1537*
 
-O ponto de partida é o Foral de 1537, documento reconhecido pela UNESCO como Memória do Mundo.
+O ponto de partida é o Foral de 1537, documento reconhecido em 2008 pelo programa Memória do Mundo, da UNESCO.
 
 O Foral botou o Rio Paratibe como divisa. Do rio para cima, era tudo Igarassu: onde hoje ficam Paulista e Abreu e Lima.
 
@@ -102,12 +102,11 @@ E tu, é de qual pedaço de Igarassu?
 
 ## Ficha do *curta*
 
-- **Roteiro, animação e narração:** Bruno Rodrigues, do Igarassu Ordinário.
-- **Revisão histórica:** professor e historiador Jorge Barretto, presidente do Instituto Histórico e Geográfico de Igarassu.
-- **Fontes:** Foral de Olinda (1537), Anais Pernambucanos, mapas de Marcgrave (Barlaeus/Blaeu, 1647) e IBGE.
-- **Imagens:** Rijksmuseum (mapa de Barlaeus/Blaeu, 1647, e pintura "Paisagem com a vila de Igaraçu", de Frans Post, 1659, em domínio público) e acervo do Museu Histórico de Igarassu, com autorização.
-- **Mapas:** Igarassu Ordinário (limites do IBGE e rios do OpenStreetMap).
-- **Dramatização:** as falas de Duarte Coelho foram criadas para o vídeo, exceto o trecho do Foral.
-- **Trilha:** Quincas Moreira (Biblioteca de Áudio do YouTube).
+- **Roteiro, animação e narração:** Bruno Rodrigues @naosouogagliasso
+- **Revisão histórica:** Jorge Barretto @jorgepaesbarretto
+- **Fontes:** Foral de Olinda (1537), Anais Pernambucanos, mapas de Marcgrave (Barlaeus/Blaeu, 1647) e IBGE
+- **Imagens:** Rijksmuseum (mapa de Barlaeus/Blaeu e pintura de Frans Post, 1659) e acervo do Museu Histórico de Igarassu, com autorização
+- **Mapas:** Igarassu Ordinário (IBGE e © colaboradores do OpenStreetMap)
+- **Dramatização:** falas de Duarte Coelho criadas para o vídeo, exceto o trecho do Foral narradas por Bruno Rodrigues.
 
 O curta também tá no nosso Instagram, @igarassuordinarioo. Assiste, manda no grupo da família e marca aquele professor de História.
