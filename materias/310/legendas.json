@@ -1,0 +1,10 @@
+{
+  "selo": "Serviço",
+  "titulo": "Vagas da *Agência* de Emprego",
+  "fotos": [
+    { "arquivo": "vaga-1.jpg", "alt": "Banner da vaga de estoquista em supermercado", "legenda": "Estoquista em supermercado: experiência na área." },
+    { "arquivo": "vaga-2.jpg", "alt": "Banner da vaga de auxiliar de supermercado", "legenda": "Auxiliar de supermercado: experiência em balcão (açougue e frios)." },
+    { "arquivo": "vaga-3.jpg", "alt": "Banner da vaga de operador de frente de loja", "legenda": "Operador de frente de loja: trabalhar com público e ter experiência na área." }
+  ],
+  "credito": "Banners: Agência Municipal de Emprego / Prefeitura de Igarassu"
+}
